@@ -1,0 +1,97 @@
+/* Limpar formatações padrão */
+*{margin:0;padding: 0;}
+body
+{
+    font-size: 16px;
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+    background: #f3f3f3;
+}
+#navbar
+{
+    background: white;
+    border-bottom: 8px solid #d8d8d8;
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+#area
+{
+    width: 720px;
+    margin: 0 auto;    
+}
+.verde
+{
+    color: #b9c941;    
+}
+#logo
+{
+    float: left;
+    margin-top: 3px;
+}
+#menu
+{
+    float:right;
+    padding: 10px 0;
+    margin-top: 3px;
+}
+/* FORMATAÇÃO DOS MENUS: */
+a
+{
+    text-decoration: none;
+    padding: 5px;
+}
+/* Visitados */ 
+a:visited
+{
+    color: #838383;
+}
+/* Não Visitados */
+a:link
+{
+    color: #838383;
+}
+/* Hover */
+a:hover
+{
+    color: #3b3b3b;
+}
+/* Ativos */
+a:active
+{
+    color: #3b3b3b;
+}
+/* ------------------------- */
+#main
+{
+    width: 720px;
+    margin: 75px auto 10px auto;
+
+}
+#post
+{
+    text-align: center;
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.data-post
+{
+    font-size:14px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.img-post
+{
+    width: 200px;
+    float: left;
+    margin: 0 10px 10px 0px;
+}
+
+#titulo{
+    padding-bottom: 5px;
+}
